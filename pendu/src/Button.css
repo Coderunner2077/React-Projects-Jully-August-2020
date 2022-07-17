@@ -1,0 +1,32 @@
+.buttons > .button {
+    font-size: 2em;
+    outline: 0.09em solid silver;
+    margin: 0.2em;
+    display: inline-block;
+    cursor: pointer;
+    width: 60px;
+    height: 45px;
+    color: brown;
+}
+
+.buttons > .button.pressed {
+    cursor: not-allowed;
+    background-color: #aaa;
+}
+
+.buttons > .button.justMatched,
+.buttons > .button.justMismatched {
+    outline: 0.11em solid green
+}
+
+.buttons > .button.justMismatched {
+    outline-color: red;
+}
+
+.buttons > .button > .letter {
+    margin: auto;
+}
+
+.buttons.hidden {
+    display: none;
+}

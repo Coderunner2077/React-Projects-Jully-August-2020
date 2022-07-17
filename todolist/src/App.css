@@ -1,0 +1,12 @@
+.todolist {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.todolist ul.taskList {
+  text-align: left;
+  margin-bottom: 20px;
+  margin-left: 70px;
+  font-size: 1.2em;
+}

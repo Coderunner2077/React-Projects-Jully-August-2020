@@ -1,0 +1,25 @@
+.cross {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 4px;
+    cursor: pointer;
+}
+
+.button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.edit {
+    width: 25px;
+    height: 18px;
+    position: relative;
+    top: 4px;
+}
+
+.up-down {
+    width: 20px;
+    position: relative;
+}
